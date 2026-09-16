@@ -28,7 +28,7 @@ TOKEN_BOT = "8075556042:AAFoz2S2xiLqDV_gEm0qc-HsxdbSNFm-nIM"
 # ==========================================
 @app.route('/')
 def index():
-    return redirect(url_for('control_login'))
+    return redirect(url_for('index.html'))
 
 @app.route('/inicio')
 def vista_inicio():
